@@ -19,15 +19,11 @@ git clone https://github.com/alinapradhan/LANA-.git
 cd LANA-
 ```
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+2. No external dependencies required! The tool uses only Python standard library.
 
-3. (Optional) Set up environment variables:
+3. Run the generator:
 ```bash
-# Create a .env file
-echo "OPENAI_API_KEY=your_api_key_here" > .env
+python3 generate_video.py --config scenes/kazakh_scene.json
 ```
 
 ## Usage

@@ -10,10 +10,6 @@ import json
 import argparse
 from pathlib import Path
 from typing import Dict, Any
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
 
 
 class VideoGenerator:
@@ -27,12 +23,11 @@ class VideoGenerator:
             config_path: Path to the configuration file
         """
         self.config = self._load_config(config_path) if config_path else {}
-        self.api_key = os.getenv('OPENAI_API_KEY')
         
     def _load_config(self, config_path: str) -> Dict[str, Any]:
         """Load configuration from JSON file."""
         try:
-            with open(config_path, 'r') as f:
+            with open(config_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except FileNotFoundError:
             print(f"Warning: Configuration file not found at {config_path}")
@@ -102,7 +97,7 @@ Style:
         
         # Save the prompt to a file for reference
         prompt_file = Path(output_path) / "generation_prompt.txt"
-        with open(prompt_file, 'w') as f:
+        with open(prompt_file, 'w', encoding='utf-8') as f:
             f.write(optimized_prompt)
         
         print(f"\n✓ Generated prompt saved to: {prompt_file}")
@@ -132,7 +127,7 @@ Style:
         }
         
         metadata_file = Path(output_path) / "metadata.json"
-        with open(metadata_file, 'w') as f:
+        with open(metadata_file, 'w', encoding='utf-8') as f:
             json.dump(metadata, indent=2, fp=f)
         
         print(f"✓ Metadata saved to: {metadata_file}")
@@ -196,7 +191,7 @@ See `metadata.json` for complete technical specifications including:
 """
         
         readme_file = Path(output_path) / "README.md"
-        with open(readme_file, 'w') as f:
+        with open(readme_file, 'w', encoding='utf-8') as f:
             f.write(readme_content)
         
         print(f"✓ Instructions saved to: {readme_file}")
