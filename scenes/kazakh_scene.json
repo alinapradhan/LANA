@@ -1,0 +1,40 @@
+{
+  "scene_name": "Traditional Kazakh Family Meal",
+  "scene_description": "Under the golden glow of sunrise, vast Kazakh steppes stretch endlessly, with snow-capped mountains on the horizon. A traditional Kazakh yurt stands at the center, smoke curling softly from its chimney. Inside the yurt, a family gathers around a low wooden table adorned with steaming plates of beshbarmak (boiled meat and noodles) and bowls of kymyz (fermented horse milk). In the foreground, hands gently slice kazy (horse sausage), while a pot simmers over an open fire outside. The ambiance is warm and inviting, with golden-hour lighting casting soft shadows. Captured in cinematic, slow motion, the scene highlights every detail—steam rising, the texture of the food, and the joy of sharing a communal meal.",
+  "technical_requirements": {
+    "resolution": "1920x1080",
+    "frame_rate": 30,
+    "duration_seconds": 60,
+    "style": "cinematic documentary",
+    "camera_movement": "smooth pans and slow zooms",
+    "lighting": "golden hour natural light"
+  },
+  "cultural_elements": [
+    "Traditional Kazakh yurt",
+    "Beshbarmak (boiled meat and noodles)",
+    "Kymyz (fermented horse milk)",
+    "Kazy (horse sausage)",
+    "Family gathering",
+    "Traditional communal meal setting"
+  ],
+  "key_visual_elements": [
+    "Vast Kazakh steppes",
+    "Snow-capped mountains on horizon",
+    "Smoke curling from yurt chimney",
+    "Low wooden table",
+    "Steaming food",
+    "Hands slicing kazy",
+    "Simmering pot over open fire",
+    "Golden-hour lighting",
+    "Soft shadows"
+  ],
+  "motion_details": [
+    "Steam rising from food",
+    "Smoke curling from chimney",
+    "Hands slicing food",
+    "Pot simmering",
+    "Slow motion capture"
+  ],
+  "mood": "warm and inviting",
+  "focus": "cultural authenticity and detail"
+}
