@@ -4,12 +4,12 @@
 
 ## Features
 
-- 🎬 Generate optimized video prompts from text descriptions
-- 🎨 Support for detailed scene configurations
-- 📝 Automatic metadata generation
-- 🎥 Cinematic quality specifications
-- 🌍 Cultural authenticity support
-- ⚙️ Flexible configuration system
+-  Generate optimized video prompts from text descriptions
+-  Support for detailed scene configurations
+-  Automatic metadata generation
+-  Cinematic quality specifications
+-  Cultural authenticity support
+-  Flexible configuration system
 
 ## Installation
 
@@ -138,10 +138,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built to support AI video generation workflows
 - Designed for cinematic quality output
 
-## Support
 
-For questions, issues, or suggestions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ for visual storytellers**
