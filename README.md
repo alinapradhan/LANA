@@ -1,5 +1,5 @@
 # LANA - Visual Motion Video Generator     
- 
+  
 **LANA** (Language-Assisted Narrative Animation) is a powerful tool for generating cinematic visual motion videos from text descriptions. It creates optimized prompts and configuration files for use with AI video generation platforms.
  
 ## Features
