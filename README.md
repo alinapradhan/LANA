@@ -7,7 +7,7 @@
 -  Generate optimized video prompts from text descriptions
 -  Support for detailed scene configurations
 -  Automatic metadata generation
--  Cinematic quality specifications
+-  Cinematic quality specifications 
 -  Cultural authenticity support
 -  Flexible configuration system
 
